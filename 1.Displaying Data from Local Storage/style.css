@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: teal;
+}
+
+#title {
+    text-align: center;
+    background-color: chocolate;
+    padding: 20px 0;
+}
+
+input, button {
+    padding: 7px;
+    height: 40px;
+}
+
+input {
+    caret-color: chocolate;
+    outline: none;
+    font-size: 1rem;
+}
+
+button {
+    background-color: chocolate;
+    cursor: pointer;
+    scale: 1;
+    border: none;
+    font-size: 1rem;
+}
+
+button:hover {
+  opacity:0.9;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:focus {
+  outline: none;
+}
+
+fieldset {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-style: solid;
+}
+
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#lsOutput {
+    color: #fff;
+    line-height: 2;
+    font-size: 1.2rem;
+}
